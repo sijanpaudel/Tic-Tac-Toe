@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px){
+    .gameContainer{
+        display: block;
+    }
+    .container{
+        margin-left: 10vw;
+    }
+    .gameInfo{
+        margin-top: 4vh;
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(3, 20vh);
+        grid-template-rows: repeat(3, 20vw);
+    }
+}
